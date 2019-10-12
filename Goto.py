@@ -10,17 +10,17 @@ try:
     has_vk = list(filter(lambda x:x['vk_id']!='', result))
     for i in has_vk:
         ids += str(i['vk_id']) + ', '
-    api = vk.API(session = vk.Session(access_token = 'a0fda04c8caf87e28f5f2d16bd917f5b9d3e788383d080af6b2d004ca521a1cd9cf9881b1dcafccc17d5e'))
+    api = vk.API(session = vk.Session(access_token = ''))
     
     app = Client(
         'roctbb228bot',
         api_id=864763,  # your api_id
-        api_hash='68f9b8c6306c86b0f1359b75f56e88ea',
+        api_hash='',
         proxy=dict(
-            hostname="t.geekclass.ru",
-            port=7777,
-            username="geek",
-            password="socks"
+            hostname="",
+            port=,
+            username="",
+            password=""
         )
     )
 
